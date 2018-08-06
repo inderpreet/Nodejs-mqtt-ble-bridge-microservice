@@ -10,6 +10,12 @@ Run
 
 Connect to iot.eclipse.org via an MQTT Client. Send a command and viola!
 
+Commands are sent to ip_v1/BLE_Light/Red , ip_v1/BLE_Light/Green , ip_v1/BLE_Light/Blue and ip_v1/BLE_Light/White
+
+Values MUST be three ASCII Characters of values ranging from 000 to 255
+
+e.g. 015 must be send as a ASCII String. The parser will automatically convert to the number 15.
+
 
 ### Prerequisites
 
